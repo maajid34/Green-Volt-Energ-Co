@@ -7,18 +7,15 @@ const bandhig2 = document.querySelector("#bandhig2")
 const core = document.querySelector("#core")
 const obj = document.querySelector("#obj")
 const nav = document.querySelector("#nav")
+const navs = document.querySelector("#navs")
 const navbar = document.querySelector("#navbar")
+const navbars = document.querySelector("#navbars")
 
 
 about.addEventListener("click", () =>{
-//    navbar.classList.toggle("hidden")
-
-about.style.background = "green"
-bandhig.innerHTML = `
-  Greenvolt Energy Solutions Co. is a dynamic and forward-thinking company established to respond to the growing demand for clean, sustainable, and affordable energy solutions in Somalia and the East African region. Founded by a team of seasoned renewable energy professionals in November 2018, the company aims to serve both the social and commercial sectors by delivering reliable and environmentally responsible energy solutions.
-Our commitment is to drive the transition to renewable energy by empowering individuals, institutions, and communities through solar technology and innovative energy systems.
-
-`;
+about.style.background = "green",
+bandhig.innerHTML = `Greenvolt Energy Solutions Co. is a dynamic and forward-thinking company established to respond to the growing demand for clean, sustainable, and affordable energy solutions in Somalia and the East African region. Founded by a team of seasoned renewable energy professionals in November 2018, the company aims to serve both the social and commercial sectors by delivering reliable and environmentally responsible energy solutions.
+Our commitment is to drive the transition to renewable energy by empowering individuals, institutions, and communities through solar technology and innovative energy systems.`
 
 mission.style.background = ""
 vission.style.background = ""
@@ -29,10 +26,7 @@ mission.addEventListener("click", () =>{
 //    navbar.classList.toggle("hidden")
 
 mission.style.background = "green"
-bandhig.innerHTML = `
-To become a regional leader in renewable energy solutions, transforming lives and industries by providing clean, reliable, and cost-effective energy alternatives.
-
-`;
+bandhig.innerHTML = `To become a regional leader in renewable energy solutions, transforming lives and industries by providing clean, reliable, and cost-effective energy alternatives.`;
 
 about.style.background = ""
 vission.style.background = ""
@@ -99,3 +93,4 @@ obj.style.background = ""
 navbar.addEventListener("click", () =>{
    nav.classList.toggle("hidden")
 })
+
