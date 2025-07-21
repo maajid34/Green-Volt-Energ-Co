@@ -1,0 +1,32 @@
+
+ ul li a:hover{
+    color:blue;
+}
+.anim{
+    animation:anim;
+    animation-duration: 5s;
+}
+
+@keyframes anim{
+    from{
+ transform: translatex(-600px);
+  opacity: 1;
+    }
+    to{
+ transform: translatex(0px);
+  opacity: 0;
+    }
+}
+
+/* animation */
+
+.scroll-animate {
+      opacity: 0;
+      transform: translateY(80px);
+      transition: all 0.8s ease-in-out;
+    }
+
+    .scroll-animate.visible {
+      opacity: 4;
+      transform: translateY(0);
+    }
